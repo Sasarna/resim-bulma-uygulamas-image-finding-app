@@ -1,0 +1,43 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+form {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    background-color: cadetblue;
+    padding: 2%;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 1.2rem;
+}
+
+form:nth-child(1) {
+    flex-direction: column;
+}
+
+#search-btn , 
+#clear-btn {
+    width: 100px;
+    height: 20px;
+    border-radius: 0.2rem;
+    border: 1px solid black;
+}
+
+#imagelist-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    width: 100%;
+    flex-wrap: wrap;
+}
